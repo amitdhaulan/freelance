@@ -1,0 +1,16 @@
+{
+  "name": "saucedemo-playwright-login",
+  "version": "1.0.0",
+  "description": "Playwright login test for saucedemo.com using POM",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1"
+  }
+}
